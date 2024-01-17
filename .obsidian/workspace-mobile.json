@@ -1,0 +1,158 @@
+{
+  "main": {
+    "id": "6c65746825bdac62",
+    "type": "split",
+    "children": [
+      {
+        "id": "33dcd09087713c23",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fc9ab2a423df3abe",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "면접ㅈ.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "2f9c1d01e43166a1",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "cfcb4346f3d58bfe",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "441450783371041b",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "8d0ca20dd64aa487",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true
+          }
+        }
+      },
+      {
+        "id": "8771ccdaf3076c36",
+        "type": "leaf",
+        "state": {
+          "type": "bookmarks",
+          "state": {}
+        }
+      },
+      {
+        "id": "feb8fb2b53e3ba14",
+        "type": "leaf",
+        "state": {
+          "type": "all-properties",
+          "state": {
+            "sortOrder": "frequency"
+          }
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "right": {
+    "id": "6146c910b3a6a850",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "07561420d418b917",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "면접ㅈ.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "4b816022754ffb6f",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "file": "면접ㅈ.md",
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "5ef3121b3139d6be",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "면접ㅈ.md"
+          }
+        }
+      },
+      {
+        "id": "e8069e682fbc5dc9",
+        "type": "leaf",
+        "state": {
+          "type": "calendar",
+          "state": {}
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "fc9ab2a423df3abe",
+  "lastOpenFiles": [
+    "Java/2. 변수(Variable)/2. 변수의 타입/변수의 타입.md",
+    "면접ㅈ.md"
+  ]
+}

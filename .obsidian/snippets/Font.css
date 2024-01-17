@@ -1,0 +1,25 @@
+.inline-title{
+    /* color: mediumpurple; */
+}
+
+.cm-header-1{
+    color: mediumaquamarine;
+}
+.cm-header-2{
+    color: mediumseagreen;
+}
+.cm-header-3{
+    color: cyan;
+}
+.cm-header-4{
+    color: mediumpurple;
+}
+.cm-header-5{
+    color: lightcoral;
+}
+.cm-header-6{
+    color: lightsalmon;
+}
+.horizontal-main-container{
+    background-color: black;
+}

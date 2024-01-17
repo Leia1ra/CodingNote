@@ -1,0 +1,253 @@
+{
+  "main": {
+    "id": "21db67792b65272c",
+    "type": "split",
+    "children": [
+      {
+        "id": "843a259abf2524fb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "97d9e3b67925d569",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "TypeScript/Next/Datas/3TierArchitecture.png"
+              }
+            }
+          },
+          {
+            "id": "24035c3bd3167660",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "TypeScript/Next/Next.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c53eb372f48291e6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "TypeScript/React/React.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "0dfe1f4b725abd2f",
+    "type": "split",
+    "children": [
+      {
+        "id": "740c90e67de22db4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fd310538b40b6af6",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "c980601d3e38f8f7",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": true,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "6bd3822f905e55cf",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "9d27f46f6191d254",
+    "type": "split",
+    "children": [
+      {
+        "id": "e61533b53b20f55d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "91b714f78520bac9",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "TypeScript/Next/Datas/3TierArchitecture.png",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "04642360bcfa89a1",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "TypeScript/Next/Datas/3TierArchitecture.png",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "487e90f496afab4c",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": false
+              }
+            }
+          },
+          {
+            "id": "1d6aa2ebdfff3dbd",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "TypeScript/Next/Datas/3TierArchitecture.png"
+              }
+            }
+          },
+          {
+            "id": "6bfb80e3cc3290e4",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          },
+          {
+            "id": "dff6a5f78590ff80",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              }
+            }
+          },
+          {
+            "id": "cd3e7a2552613b30",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 240.5,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:퀵 스위처 열기": false,
+      "graph:그래프 뷰 열기": false,
+      "canvas:새 캔버스 만들기": false,
+      "daily-notes:오늘의 데일리 노트 열기": false,
+      "templates:템플릿 삽입": false,
+      "command-palette:명령어 팔레트 열기": false
+    }
+  },
+  "active": "97d9e3b67925d569",
+  "lastOpenFiles": [
+    "면접.md",
+    "TypeScript/Next/Datas/3TierArchitecture.png",
+    "Java/Spring/View/ThymeLeaf.md",
+    "Pasted image 20240117204502 1.png",
+    "Pasted image 20240117204502.png",
+    "Java/Spring/Controller/Controller.md",
+    "TypeScript/Next/Next.md",
+    "TypeScript/React/React.md",
+    "TypeScript/Type.md",
+    "Data.md",
+    "TypeScript/Next/Datas/그림1-1.png",
+    "TypeScript/Next/Datas",
+    "TypeScript/Next/Parts/NextServer.md",
+    "Java/Spring/Controller/RestController.md",
+    "TypeScript/Next/Parts/Route.md",
+    "TypeScript/Next/MongoDB Connect.md",
+    "TypeScript/Next/Parts/Component.md",
+    "TypeScript/React/Parts/Component.md",
+    "TypeScript/React/Parts/Props.md",
+    "TypeScript/Next/Parts",
+    "TypeScript/Next",
+    "TypeScript/Datas",
+    "TypeScript/React/Parts/State.md",
+    "TypeScript/React/Parts/Layout.md",
+    "TypeScript/React/Parts/Classic.md",
+    "TypeScript.zip",
+    "Java.zip",
+    "DataBase/Schema.md",
+    "Java/3. 연산자(Operator)/연산자.md",
+    "Java/6. 객체지향 프로그래밍(Object-Oriented Programming)/클래스와 객체.md",
+    "Java/6. 객체지향 프로그래밍(Object-Oriented Programming)/변수와 메서드.md",
+    "Java/6. 객체지향 프로그래밍(Object-Oriented Programming)/객체지향언어.md",
+    "Java/Collections/List.md",
+    "Java/Collections/Set.md",
+    "Java/Collections/Map.md",
+    "TypeScript/React/Parts",
+    "TypeScript/React",
+    "Java/Datas/thymeleaf 문법.png",
+    "Java/Datas/images_yjw8459_post_e0bb844c-256e-4e64-9e80-3f83b5ecd817_image.png",
+    "Java/Spring/Controller",
+    "Java/Spring/View",
+    "무제 파일.canvas",
+    "무제 파일 1.canvas",
+    "Java/Datas/3장_1.1 연산자와 피연산자.png",
+    "발성법/자료/흉부구조.gif",
+    "발성법/자료/구강구조.jpg",
+    "Java/Datas/11장_Map.png",
+    "Java/무제 파일.canvas"
+  ]
+}

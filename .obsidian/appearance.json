@@ -1,0 +1,12 @@
+{
+  "accentColor": "#8b6cef",
+  "enabledCssSnippets": [
+    "Font"
+  ],
+  "monospaceFontFamily": "Hack",
+  "textFontFamily": "Tmoney RoundWind",
+  "interfaceFontFamily": "Tmoney RoundWind",
+  "cssTheme": "",
+  "theme": "obsidian",
+  "baseFontSize": 14
+}
