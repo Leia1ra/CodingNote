@@ -5,7 +5,7 @@
 ```TypeScript
 import {MongoClient} from "mongodb";  
   
-const url = 'mongodb+srv://pofol:cVyCxuaB2onxekMO@portfolio.cdrpbfl.mongodb.net/?retryWrites=true&w=majority';  
+const url = 'MongoDB URL 기입';  
 const options = {useNewUrlParser:true}  
 let connectDB:Promise<MongoClient>;  
   
