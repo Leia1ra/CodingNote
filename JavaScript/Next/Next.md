@@ -1,13 +1,16 @@
-> 기본적인 문법은 [[React|React]]를 따르는 듯 함
-
+---
+"\blink":
+  - "[[React]]"
+Descripting: 기본적인 문법은 React의 문법을 따르는듯 하다
+---
 ---
 #### [[Route|Route]]
 >  URL로 페이지를 나누는것을 라우팅이라고 한다.
 - 규칙(예시 `http://localhost:3000/list`)
-	1. `app`폴더 안에 `list` 폴더 생성
+	1. `app`폴더 안에 EndPoint의 명칭으로 `list` 폴더 생성
 	2. `list` 폴더 안에 `page.js`를 생성
 	3. 필요시 `layout.js`를 생성
-		- 상위 폴더의 layout안에 하위폴더의 layout을 포함하여 보여줌
+		- 항상 상위 폴더의 layout안에 하위폴더의 layout을 포함하여 보여줌
 ```TSX
 // /app/list/page.tsx
 function List() {
@@ -81,6 +84,7 @@ export default async function Detail(props:props) {
 - 규칙
 	1. `'use client'`코드를 상단에 기술(`use~~ 문법은 client component에서만 작동한다.`)
 ```TSX
+'use client';
 import {useParams, usePathname, useRouter, useSearchParams} from "next/navigation";  
 export default function DetailLink(pr:{p:string}) {  
     let router = useRouter()  
@@ -109,7 +113,7 @@ export default function DetailLink(pr:{p:string}) {
 	- `<Link href={'/detail/'+pr.p)}>링크</Link>` 또한 미리 로드를 함
 	- prefetch={false} 속성을 통해 미리로드 방지도 가능함
 ---
-#### [[TypeScript/Next/Parts/Component|Component]]
+#### [[JavaScript/Next/Parts/Component|Component]]
 > Next.js에는 2가지의 컴포넌트 방식이 존재
 - Server Component
 	- 장점
@@ -156,7 +160,7 @@ import {age, Hello} from "./data"
 ---
 #### [[NextServer|Server]]
 ##### 3 Tier Architecture
-![[Next/Datas/3TierArchitecture.png]]
+![[3TierArchitecture.png]]
 - Client Layer <-> Server Layer <-> DataBase Layer
 	- 사용자의 입력을 전적으로 신뢰해선 안됨
 	- 사용자가 DB 입출력을 필요로 할 시 ==DB 입출력을 안전하게 대리로 해줄 수 있는== 프로그램이 필요하며 이를 ==Server==라고 한다.
@@ -164,8 +168,9 @@ import {age, Hello} from "./data"
 	1. `프로젝트 루트`로부터 `pages/api` 폴더를 생성한다.
 		- `src/app` 폴더 아래 `api`폴더를 만들어 작업하는 방법도 있는듯 싶으나 나사가 좀 빠진듯함
 	2. 필요한 메서드를 작성한다.
+		- 단 함수의 매개변수(Parameter)는 `requset -> response`의 순서로 작성한다.
 ```TypeScript
-export default async function handler(req:NextApiRequest, res:NextApiResponse) {  
+export default async function handler(req:NextApiRequest, res:NextApiResponse<any>) {  
     const client = await connectDB;  
     const db = client.db("forum");  
     let result = await db.collection("post").find().toArray();  
@@ -176,7 +181,7 @@ export default async function handler(req:NextApiRequest, res:NextApiResponse) {
 	}
     console.log(req.body);
 	  
-    return res.status(200).json(result);  
+    res.status(200).json(result);  
 }
 ```
 	 '/pages/api/test.ts'
@@ -203,3 +208,4 @@ export default function Write() {
 > search parameter(query string)을 출력
 ##### useParams()
 > Path Variable\[dynamic route]을 출력
+

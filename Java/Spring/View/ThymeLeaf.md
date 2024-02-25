@@ -57,8 +57,12 @@ welcome.message=ㅎㅇ
 <a th:href="@{/community/write(id=${detail.id},name='leia1ra')}">글쓰기</a>
 ```
 	 다수의 파라미터를 사용하기 위한 구분은 ,로 합니다.
+- PathVariable
+```HTML
+<a th:href="@{/path/{iId}/detail/{dId}(iId = ${item.id}, dId = ${dtl.id})}"></a>
+```
+	 경로변수식은 {중괄호}안에 변수명을 넣고, 마지막 (괄호)안에 '{변수명}=${데이터}' 식으로 처리
 ###### Fragment 표현식
-> 상세는 이후 단편 삽입 참고
 ```HTML
 <div th:insert="~{example/fragment :: one}"></div>
 ```
@@ -68,7 +72,7 @@ welcome.message=ㅎㅇ
 ##### 문자 삽입
 ###### 직접 문자 삽입
 ```HTML
-<div th:text="${msg}">속성 값에 지정된 값을 Sanitize 하여 출력합니다.</div>  
+<div th:text="${msg}">속성 값에 지정된 값을 Sanitize 하여 출력합니다.</div>
 <div th:utext="${sanitize}">속성 값에 지정된 값을 출력합니다.</div>
 ```
 	Sanitize : 위험한 코드나 데이터를 변환 또는 제거하여 무력화 하는 것
@@ -78,15 +82,15 @@ welcome.message=ㅎㅇ
 ```
 ###### 값 결합
 ``` HTML
-<div th:text="'안녕하세요! ' + ${msg} + '입니다'"></div>  
+<div th:text="'안녕하세요! ' + ${msg} + '입니다'"></div>
 ```
 ###### 리터럴 치환
 ```HTML
-<div th:text="|안녕하세요! ${msg}입니다|"></div>  
+<div th:text="|안녕하세요! ${msg}입니다|"></div>
 ```
 ###### Session
 ```HTML
-<h1 th:text="${session['hello']}"></h1>  
+<h1 th:text="${session['hello']}"></h1>
 ```
 ###### Parameter
 ```HTML
@@ -153,7 +157,7 @@ welcome.message=ㅎㅇ
 	Map 데이터를 결합한 객체 참조 ->  
 	<span th:text="${mp.get('name')}"></span>  
 	<span th:text="${mp['type']}"></span>  
-</div>  
+</div>
 ```
 
 ```HTML

@@ -1,4 +1,4 @@
-> 부모 [[TypeScript/React/Parts/Component|컴포넌트]]의 [[State|State]]를 자식 [[TypeScript/React/Parts/Component|컴포넌트]]로 전송하여 사용할 수 있는 Props문법
+> 부모 [[JavaScript/React/Parts/Component|컴포넌트]]의 [[State|State]]를 자식 [[JavaScript/React/Parts/Component|컴포넌트]]로 전송하여 사용할 수 있는 Props문법
 - 규칙
 	1. 자식 컴포넌트 사용하는 곳에 가서 `<자식컴포넌트 변수명={state이름}>` 로 기재
 		- `<Modal 변수명={변수}>` 일반 변수, 함수 전송도 가능

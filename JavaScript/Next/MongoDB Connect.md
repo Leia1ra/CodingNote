@@ -23,18 +23,10 @@ export {connectDB}
 	 MongoDB Client connect가 동시에 실행될 수 있어, 입출력이 매우 느려지기 때문에 미연에 방지하는 코드
 
 3. Server Component에서만 사용하도록 한다.
-```TSX
-import { connectDB } from "/util/database.js" 
-async function Home() { 
-	let client = await connectDB; 
-	const db = client.db('forum'); 
-	let result = await db.collection('post').find().toArray(); 
-	
-	return ( 
-		<main> {result[0].title} </main> 
-	)
-}
-export default Home;
+```TypeScript
+let client = await connectDB; 
+const db = client.db('DB 명');
+let result = await db.collection('컬렉션 명')./*필요한 함수를 추가*/
 ```
 	 client Component에서 사용시 일반 유저도 쉽게 볼 수 있는 문제가 있음
 ---
@@ -48,7 +40,6 @@ export default Home;
 ```TypeScript
 let result = await db.collection('post').find().toArray();
 ```
-
 ##### findOne
 > 특정한 하나의 정보를 찾을때 사용
 ```TypeScript
@@ -60,7 +51,18 @@ let result = await db.collection("post").findOne(filter);
 	 구체적인 타입을 작성하고 싶다면 위와같은 예시를 참고할 것
 ---
 #### Update
-
+##### UpdateOne
+```TypeScript
+const result = await db.collection('post').updateOne(  
+    {_id:new ObjectId(p.id)},  
+    {       
+		$set:{  
+          'content':p.content,  
+          'title':p.title  
+		}  
+    }  
+)
+```
 ---
 #### Delete
 

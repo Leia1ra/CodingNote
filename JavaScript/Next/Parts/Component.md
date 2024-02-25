@@ -1,4 +1,4 @@
-#### [[TypeScript/React/Parts/Component|Component]]
+#### [[JavaScript/React/Parts/Component|Component]]
 > Next.js에는 2가지 방식이 존재
 - Server Component
 	- 장점

@@ -46,7 +46,7 @@ public String homeAction(String name, int age){
 ```
 ###### Vo 객체 활용
 ```Java
-@RequestMapping(value = "/homeAction", method = RequestMethod.POST)    
+@RequestMapping(value = "/homeAction", method = RequestMethod.GET)    
 public String homeAction(HomeVO vo){        
 	System.out.println("Post : 이름 : "+vo.getName()+ ", 나이 : "+vo.getAge());  
 	return "redirect:/";    

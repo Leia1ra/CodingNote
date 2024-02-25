@@ -1,25 +1,37 @@
-.inline-title{
-    /* color: mediumpurple; */
+.HyperMD-header>.cm-header-1{
+    color: mediumseagreen;
+    filter: brightness(120%);
+    font-size: 1.5rem !important;
+}
+.HyperMD-header>.cm-header-2{
+    color: mediumaquamarine;
+    filter: brightness(150%);
+    font-size: 1.4rem !important;
+}
+.HyperMD-header>.cm-header-3{
+    color: cyan;
+    filter: brightness(120%);
+    font-size: 1.3rem !important;
+}
+.HyperMD-header>.cm-header-4{
+    color: mediumpurple;
+    filter: brightness(120%);
+    font-size: 1.2rem !important;
+}
+.HyperMD-header>.cm-header-5{
+    color: lightcoral;
+    filter: brightness(120%);
+    font-size: 1.1rem !important;
+}
+.HyperMD-header>.cm-header-6{
+    color: lightsalmon;
+    font-size: 1rem !important;
 }
 
-.cm-header-1{
-    color: mediumaquamarine;
+.HyperMD-header{
+    padding-top: 0.25rem !important;
 }
-.cm-header-2{
-    color: mediumseagreen;
-}
-.cm-header-3{
-    color: cyan;
-}
-.cm-header-4{
-    color: mediumpurple;
-}
-.cm-header-5{
-    color: lightcoral;
-}
-.cm-header-6{
-    color: lightsalmon;
-}
+
 .horizontal-main-container{
     background-color: black;
 }

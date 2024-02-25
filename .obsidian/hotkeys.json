@@ -23,12 +23,34 @@
       "key": "H"
     }
   ],
-  "workspace:split-horizontal": [
+  "app:go-back": [
     {
       "modifiers": [
-        "Shift"
+        "Mod",
+        "Alt"
       ],
-      "key": "Enter"
+      "key": "ArrowLeft"
+    },
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "["
+    }
+  ],
+  "app:go-forward": [
+    {
+      "modifiers": [
+        "Mod",
+        "Alt"
+      ],
+      "key": "ArrowRight"
+    },
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "]"
     }
   ]
 }
